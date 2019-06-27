@@ -1,30 +1,25 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AppNavbar from './components/AppNavbar';
 import './App.css';
-import Banner from './components/Banner';
-import Background from './img/bg-img.jpg';
-import About from './components/About';
-import Projects from './components/Projects';
+import Intro from './components/intro';
+import About from './components/about';
+import Experience from './components/experience';
+import Portfolio from './components/portfolio';
+import Education from './components/education';
+import Footer from './components/footer';
 
-
-const myStyles = {
-    backgroundImage: `url( ${Background} )`,
-    height: '100vh',
-    backgroundSize: 'cover'
-}
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-      <div style={myStyles}>
-        <AppNavbar/>
-        <Banner/>
-        <About/>
-        <Projects />
+        <div>
+          <Intro />
+          <About />
+          <Experience />
+          <Portfolio />
+          <Education />
+          <Footer />
         </div>
-      </div>
     );
   }
 }
