@@ -48,11 +48,9 @@ export default class Intro extends Component {
                             <li><b className="font-yellow">EMAIL</b> : alexyikeh@gmail.com</li>
                         </ul>
                         <ul className="social-icons">
-                            <li><a href="#"><i className="ion-social-pinterest" /></a></li>
                             <li><a href="#"><i className="ion-social-linkedin" /></a></li>
-                            <li><a href="#"><i className="ion-social-instagram" /></a></li>
-                            <li><a href="#"><i className="ion-social-facebook" /></a></li>
-                            <li><a href="#"><i className="ion-social-twitter" /></a></li>
+                            <li><a href="https://facebook.com/alexswiss0"><i className="ion-social-facebook" /></a></li>
+                            <li><a href="https://twitter.com/CodedFingers"><i className="ion-social-twitter" /></a></li>
                         </ul>
                         </div>{/* col-sm-8 */}
                         <div className="col-sm-10 col-md-3 col-lg-3">
